@@ -4,4 +4,5 @@
     <string name="empty_list_text">No books found.</string>
     <string name="empty_list_first_search">Welcome! do your first search.</string>
     <string name="no_internet">No internet connection available.</string>
+    <string name="search_edit_text">Enter the title to search for</string>
 </resources>

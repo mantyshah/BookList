@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                 Book book = bookAdapter.getItem(position);
                 String packageName = getPackageName();
 
-                if(book.getmBuyLink() != "")
+                if(!book.getmBuyLink().equals(""))
                 {
                     Uri link = Uri.parse(book.getmBuyLink());
                     Intent intent = new Intent(Intent.ACTION_VIEW, link);
