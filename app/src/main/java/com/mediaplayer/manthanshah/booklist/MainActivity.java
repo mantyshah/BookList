@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     public static final String LOG_TAG = MainActivity.class.getName();
     private static final int BOOK_LOADER_ID = 1;
 
-    private final String baseUrl = "https://www.googleapis.com/books/v1/volumes?q=";
+   final String baseUrl = "https://www.googleapis.com/books/v1/volumes?q=";
 
     private EditText searchEditText;
     private BookAdapter bookAdapter;
